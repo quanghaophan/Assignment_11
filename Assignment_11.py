@@ -209,31 +209,7 @@ def run_conversation_simulation():
     except Exception as e:
         print(f"\nAn unexpected error occurred: {str(e)}")
 
-def print_setup_instructions():
-    """
-    Print setup instructions for the user.
-    """
-    print("\n" + "=" * 60)
-    print("SETUP INSTRUCTIONS")
-    print("=" * 60)
-    print("Before running this script, you need to:")
-    print()
-    print("1. Install required packages:")
-    print("   pip install langchain-openai langchain-community langchain-tavily langgraph pyowm")
-    print()
-    print("2. Get API keys from:")
-    print("   - Azure OpenAI: https://azure.microsoft.com/en-us/products/ai-services/openai-service")
-    print("   - OpenWeatherMap: https://openweathermap.org/api")
-    print("   - Tavily: https://app.tavily.com/")
-    print()
-    print("3. Set your API keys in the setup_environment() function")
-    print()
-    print("4. Run the script: python Assignment_11.py")
-    print("=" * 60)
-
 if __name__ == "__main__":
-    # Print setup instructions
-    # print_setup_instructions()
 
     # Run the main conversation simulation
     run_conversation_simulation()
