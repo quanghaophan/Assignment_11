@@ -1,0 +1,11 @@
+# Requirements for Assignment 11: AI Agent for Weather & Search Queries
+# Install with: pip install -r requirements.txt
+
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+langchain-tavily>=0.1.0
+langgraph>=0.1.0
+pyowm>=3.3.0
+langchain>=0.2.0
+tiktoken>=0.5.0
+requests>=2.31.0
